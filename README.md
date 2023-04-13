@@ -13,9 +13,15 @@ To use the application, import the url_shortener function from app.py:
 from app import url_shortener
 
 long_url = https://www.youtube.com/watch?v=K8KAbu45-kE&list=RDK8KAbu45-kE&start_radio=1
+
+
 short_url = url_shortener(long_url)
 
+
+
 print(short_url)
+
+
 This will print a shortened URL based on the MD5 hash of the long URL.
 
 # Here is a basic algorithm for a URL shortener using the hashlib and string libraries in Python:
